@@ -35,7 +35,7 @@ class ExpenseTrackerClass(CTk):
 
     def create_widgets(self):
         # Left side menu buttons
-        self.menu_frame = tk.Frame(self, bg= "cyan")
+        self.menu_frame = tk.Frame(self, bg= "black")
         self.menu_frame.pack(side='left', fill='y')
 
         buttons_data = [
@@ -51,7 +51,7 @@ class ExpenseTrackerClass(CTk):
             button.pack(pady=10, padx=5)
 
         # Right side frame for changing content
-        self.window_frame = tk.Frame(self, bg ="orange")
+        self.window_frame = tk.Frame(self, bg ="white")
         self.window_frame.pack(side="right", fill="both", expand=True)
 
     def add_expense(self):
